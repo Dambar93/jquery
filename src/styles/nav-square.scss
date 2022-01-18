@@ -1,4 +1,7 @@
 #nav-square{
+
+    
+
     .container{
         padding-top: 78px;
     }
@@ -6,13 +9,20 @@
         list-style-type: none;
         text-transform: uppercase;
         display: flex;
-        
+             
     }
     li{
         padding: 15px;
+       
     }
-
-    .i{
-        opacity: 0.5;
+  
+    i{
+       color: $copyright;
+    }
+    .activated{
+        color: $text-color;
+    }
+    .active{
+        color: $copyright;
     }
 }

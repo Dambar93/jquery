@@ -27,16 +27,20 @@
 
 $('#menu').ready(function(){
   $("ul").hide(
-
+    
   );
-
+  
   
 });
     $('#menu').on('click', function () {
 
       $("ul").toggle();
+      $('#menu').toggleClass('activated');
+      
     
     });
+
+
 
 
     $('.img1').on('mouseenter', function () {
