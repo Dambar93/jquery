@@ -1,0 +1,88 @@
+@import 'variables.scss';
+#photos{
+    .col{
+        padding: 0;
+        margin: 0;
+        height: 390px;
+        width: 390px;
+        background-position: center;
+        background-size: cover;
+       
+      
+        
+    }
+    h2{
+        color: $white-text;
+        font-family: Playfair;
+        font-weight: 700;
+        letter-spacing: 1px;
+
+        
+    }
+    h4{
+       color: $white-text;
+       text-transform: uppercase; 
+       font-size: $main-font-size;
+       font-family: WorkSans;
+       font-weight: 500;
+    }
+    h3{
+        padding-top: 140px;
+        text-align: center;
+        color: $text-color;
+        text-transform: uppercase;
+        font-size: $main-font-size;
+        font-family: WorkSans;
+        font-weight: 500;
+    }
+    .img1{
+        background-image: url(img/portfolio-2-sm.jpg);
+    }
+    .show{
+        display: flex;
+        text-align: center;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.746);
+    }
+
+   
+   
+    .hide{
+        display: none;
+
+    }
+
+
+    .img2{
+        background-image: url(img/portfolio-3-sm.jpg);
+    }
+    .img3{
+        background-image: url(img/portfolio-4-sm.jpg);
+    }
+    .img4{
+        background-image: url(img/portfolio-5-sm.jpg);
+    }
+    .img5{
+        background-image: url(img/portfolio-6-sm.jpg);
+    }
+    .img6{
+        background-image: url(img/portfolio-7-sm.jpg);
+    }
+    .img7{
+        background-image: url(img/portfolio-8-sm.jpg);
+    }
+    .img8{
+        background-image: url(img/portfolio-9-sm.jpg);
+    }
+    .img9{
+        background-image: url(img/portfolio-12-sm.jpg);
+    }
+    .card{
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+}

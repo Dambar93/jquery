@@ -1,0 +1,19 @@
+@import 'variables.scss';
+#footer{
+    padding-top: 95px;
+    .icons{
+        gap: 15px;
+
+        i{
+            color: $icon-color;
+        }
+    }
+    h3{
+        padding-top: 27px;
+        text-align: center;
+        color: $copyright;
+        font-size: $main-font-size;
+        font-family: $regular-font;
+        font-weight: 400;
+    }
+}
